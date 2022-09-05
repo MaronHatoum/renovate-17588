@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - main
+name: Main Workflow
+jobs:
+  checkout:
+    runs-on: [self-hosted, Linux, X64]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
