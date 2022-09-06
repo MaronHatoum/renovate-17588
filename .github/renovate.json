@@ -19,7 +19,7 @@
   "packageRules": [{
       "matchManagers": ["github-actions"],
       "matchDatasources": ["github-tags"],
-      "registryUrls": ["https://github.internal.myCompany.com/"]
+      "registryUrls": ["https://registry.hub.docker.com/api/v3"]
   }]
 }
 
